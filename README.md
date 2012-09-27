@@ -110,7 +110,7 @@ Sometimes there are CSSLint errors that for one reason or another you want ignor
 	"anvil.csslint": {
 		"all": true,
 		"ignore": [
-			{ "line": 81, "character": 26, "reason": "'someVariable' is already defined." },
+			{ "line": 81, "col": 26, "message": "Expected COLON at line" },
 			... other options ...
 		]
 	}
